@@ -1,0 +1,275 @@
+.NavbarItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+    width: 95%;
+    height: 80px;
+    border-radius: 13px;
+    position:relative;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #ffffff;
+
+} 
+
+
+.nav-links{
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+
+}
+
+.nav-links:hover{
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.home{
+    margin-top: 100px;
+}
+.about{
+    margin-top: 20px;
+    position:relative;
+
+  
+}
+.header{
+
+    font-weight: 500;
+    line-height: 1.5;
+    padding-left: 30px;
+    font-family: "Open Sans";
+    background-color: #17B8EE;
+        display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+ 
+}
+.P{
+font-size: 14px;
+padding-left: 30px;
+padding-right: 30px;
+font-family: "Open Sans";
+}
+.header1{
+    font-size: medium;
+    padding-left: 30px;
+}
+.list{
+   
+    font-size: 14px;
+padding-left: 45px;
+padding-right: 30px;
+font-family: "Open Sans";
+}
+footer {
+    position:sticky;
+        background-color:black;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .footer{
+        display: flex;
+     
+        padding: 0 30px;
+      }
+      .list1{
+ display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 60px;
+    list-style: none;
+    align-items: center;
+  
+    
+
+      }
+      .text{
+       word-spacing: 60px; /* Adjust the value as needed */
+       padding-right: 750px;
+       
+}
+.write{
+    font-weight: 500;
+    padding-left: 60px;
+    margin-top: 1px;
+}
+.image{
+    padding-left: 50px;
+}
+table{
+    width: 1000px;
+    padding-left: 200px;
+}
+
+
+.terms{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.terms:hover{
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 0px;
+    transition: all 0.2s ease-in-out;
+}
+.My{
+    padding-left: 800px;
+
+}
+#licenseNumber{
+    margin-top: 50px;
+}
+
+.head1{
+    text-align: center;
+     font-size: 30px;
+     font-weight:200px;
+     margin-top: 40px;
+     font-family: "Open Sans";
+ }
+.services{
+     width: 85%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 75px auto;
+     text-align: center;
+ 
+ }
+ .card{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-direction: column;
+     margin: 75px auto;
+     margin: 0px 20px;
+     padding: 20px 20px;
+     background-color: #efefef;
+     border-radius: 10px;
+     cursor: pointer;
+     font-family: "Open Sans";
+   
+ }
+ .card:hover{
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+ }
+ .P1{
+    padding-left: 120px;
+    font-family: "Open Sans";
+ }
+ .image1{
+    height: 100px;
+    width: 100px;
+ }
+ .more{
+    background-color: rgb(74, 203, 249);
+    height: 30px;
+    width: 60px;
+    border-style: none;
+    border-radius: 2px;
+ }
+ .dropdown{
+    height: 30px;
+    margin-bottom: 10px;
+ }
+ .RTO{
+    height: 30px;
+    margin-top: 10px;
+ }
+ select{
+ padding:0 50px;
+ margin-right: 150px ;
+   }
+.P4{ 
+    padding-left: 20px;
+ border-width: 0.1px;
+ border-style: solid;
+}
+.P5{
+    padding:0 50px;
+    margin-right: 40px ;
+    height: 30px;
+    margin-top: 10px;
+}
+.P6{
+    height: 30px;
+    margin-top: 10px;
+} 
+.P7{
+  margin-right: 135px ;
+    height: 30px;
+    margin-top: 10px;
+}
+.adress{
+    margin-top: 20px;
+    padding-left: 10px;
+    border-width: 0.1px;
+    border-style: solid;
+}
+
+.address{
+    padding:0 50px;
+    margin-right: 55px ;
+    height: 30px;
+}
+.declaration{
+    margin-top: 20px;
+    border-width: 0.1px;
+    border-style: solid;
+   } 
+.submit{
+    background-color: rgb(74, 203, 249);
+    height: 30px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border-style: none;
+  
+ 
+}
+button {
+    margin: 5px; /* Optional: Add margin to buttons for spacing */
+  }
+  .driving{
+    height: 30px;
+    margin-right: 200px;
+  }
+  .getdetails{
+    background-color: rgb(74, 203, 249);
+    height: 30px;
+    border-radius: 2px;
+    border-style: none;
+    justify-items: center;
+    text-align: center;
+  }
+  .Renewal{
+    border-width: 1px;
+    border-style: solid;
+
+  }
+  .get{
+   text-align: center;
+  }
+  .body{
+    border-style: solid;
+    border-width: 1px;
+   margin-top: 20px;
+  }
