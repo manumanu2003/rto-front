@@ -9,7 +9,8 @@ const More = () => {
 
     <h3 className='header'>Application for Driving/Learners Licenses(LL/DL)</h3>
      <div className='P3'>
-     *state <select className='dropdown' required >
+     <label>*state</label>
+    <select className='RTO'  required >
     <option value="Karnataka">Karnataka</option>    
     <option value="Andhra Pradesh">Andhra Pradesh</option>
     <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -38,9 +39,10 @@ const More = () => {
     <option value="Uttar Pradesh">Uttar Pradesh</option>
     <option value="Uttarakhand">Uttarakhand</option>
     <option value="West Bengal">West Bengal</option>
-  </select>
-
-* RTO Office <select className='RTO' required>
+   </select>
+ 
+  <label>RTO Office</label>
+   <select className='RTO' required>
   <option value="KA01">KA01 -Bangalore Central</option>
   <option value="KA02">KA02 -  Bangalore West</option>
   <option value="KA03">KA03 -  Bangalore East</option>
@@ -91,25 +93,26 @@ const More = () => {
 
 </select>
 
-  Pincode <input type="text" id="pincode" name="pincode" placeholder="Enter your pincode" required className='dropdown  '></input>
+<label>Pincode</label> 
+<input type="text" name="pincode" placeholder="Enter your pincode" required className='RTO'></input> <br/><br/>
 </div> 
 <div className='P4'><h4>Personal Details :</h4>
  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" placeholder="Enter your name" required className='P5'/>
+  <input type="text" id="name" name="name" placeholder="Enter your name" required className='address'/><br/><br/>
   <label for="email">Email:</label>
-  <input type="email" id="email" name="email" placeholder="Enter your email" required className='P5'/>
+  <input type="email" id="email" name="email" placeholder="Enter your email" className='address'/><br/><br/>
   <label for="Photo">Photo:</label>
-  <input type='file' className='P6'></input><br/><br/>
+  <input type='file' className='address'></input><br/><br/>
   <label for="phone">Phone Number:</label>
-  <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required className='P7'/>
+  <input type="tel"  name="phone" placeholder="Enter your phone number" required className='address'/><br/><br/>
   <label for="DOB">DOB:</label>
-  <input type='Date' className='P7'></input>
+  <input type='Date' className='address'></input><br/><br/>
   <label for="name">Place of Birth:</label>
-  <input type="text" className="P7" name="name" placeholder="" required/>
+  <input type="text" className='address' name="name" placeholder="" required/><br/><br/>
   <br/><br/>
  
   <label for="qualification">Select Qualification:</label>
-<select  className="P7" name="qualification">
+<select className='address'>
   <option value="high_school">High School</option>
   <option value="phd">PUC</option>
   <option value="phd">Diploma</option>

@@ -14,7 +14,7 @@ const More2 = () => {
        
         <button className='getdetails'>Get Details</button><br/><br/><br/><br/>
         <div className='get'>
-        <button className='getdetails'>Renew DL</button>
+        <button className='getdetails'>Submit</button>
         <button className='getdetails'>Cancel</button>
 
         </div>

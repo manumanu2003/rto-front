@@ -21,6 +21,7 @@ const Navbar=()=>{
       <Link to="/" className='nav-links'><FaHome />Home</Link>
       <Link to="/About us" className='nav-links'>About us</Link>
       <Link to ='Contact us' className='nav-links'>  Contact us</Link>
+      <Link to ='/Login' className='nav-links'>  Login</Link>
       <input type='text' placeholder='search'/>
       <button type='onclick'><FaSearch /></button>
       

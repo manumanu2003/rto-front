@@ -10,6 +10,9 @@ import Contact from './components/Contact';
 import More from './components/More';
 import More1 from './components/More1';
 import More2 from './components/More2';
+import Login from './components/Login';
+import Sign from './components/Sign';
+
 function App() {
   return (
     
@@ -25,6 +28,8 @@ function App() {
       <Route path="/more"  element={<More/>}/>
       <Route path="/more1"  element={<More1/>}/>
       <Route path="/more2"  element={<More2/>}/>
+      <Route path="/Sign"  element={<Sign/>}/>
+      <Route path="/Login"  element={<Login/>}/>
     </Routes>
     </div>
     <Footer/>
