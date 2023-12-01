@@ -35,7 +35,7 @@ function Sign() {
       <form>
       <label>First Name:</label>
         <input
-          type="text"
+          type="text" 
           className="input-field" 
           placeholder=""
           value={fname} required
